@@ -1,0 +1,17 @@
+void main()
+{
+
+   lcd_init();
+
+   while(TRUE)
+   {
+   
+   
+     printf(lcd_putc,"helloworld!");
+     delay_ms(1000);
+     lcd_putc('\f');
+    
+   }
+   
+
+}
